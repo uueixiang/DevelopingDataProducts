@@ -1,7 +1,7 @@
 name: Publish Document
 account: rpubs
 server: rpubs.com
-appId: https://api.rpubs.com/api/v1/document/154496/89dde03438c248d1a73d21450204c502
-bundleId: https://api.rpubs.com/api/v1/document/154496/89dde03438c248d1a73d21450204c502
-url: http://rpubs.com/uueixiang/154496
-when: 1456032539.5339
+appId: https://api.rpubs.com/api/v1/document/154512/c84bbea686bf43fead369da45fff3d03
+bundleId: https://api.rpubs.com/api/v1/document/154512/c84bbea686bf43fead369da45fff3d03
+url: http://rpubs.com/publish/claim/154512/c532affd85ff4f54b62ef5dbfee8e127
+when: 1456037777.30439

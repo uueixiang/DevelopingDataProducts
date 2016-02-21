@@ -1,35 +1,28 @@
----
-title: "Banting Air Pullutant Index"
-author: "Weixiang Lim"
-highlighter: highlight.js
-output: pdf_document
-job: null
-knit: slidify::knit2slides
-mode: selfcontained
-hitheme: tomorrow
-subtitle: Aug 2013 - Feb 2015
-framework: io2012
-widgets: []
----
+Banting Air Pollution Index
+========================================================
+author: WeiXiang Lim
+date: 21 Feb 2016
 
-## Introduction
+Introduction
+========================================================
+
 Banting Air Pullutant Index app provides the hourly changes of the API reading in Banting, based on the selected Month and Year. It gives the trends prediction of the API of Banting. 
 
 The data can be obtained from http://www.data.gov.my/, it's measured by the Malaysian Meteorological Department.
 
 The data in this application only covered the measured API from August 2013 and February 2015.
 
----
+Data
+========================================================
 
-## Data
 ```{r}
 banting <- read.csv("API_Banting.csv")
 str(banting)
 ```
 
----
+Shiny App
+========================================================
 
-## Shiny App
 This shiny app can be viewed at the following link:
 
 http://uueixiang.shinyapps.io/BantingAirPollutionIndex/
@@ -42,9 +35,8 @@ This application demonstrated the features in Shiny application that allows crea
 
 Based on the outcome of the graph, we can observe that API readings usually peak around 3-4pm in the evening.
 
----
-
-## Github Repo
+Github Repo
+========================================================
 
 The code for the shiny app can be obtained at the following github repo: 
 
@@ -54,6 +46,6 @@ This repo also contains all the codes and data involved.
 * README.md
 * API_Banting data
 * Shiny app code: ui.R and server.R
-* Slidify Rmarkdown of this presentation
+* RPresentation of this slide
 
 

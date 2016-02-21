@@ -1,14 +1,15 @@
 ---
-title       : Banting Air Pullutant Index
-subtitle    : Aug 2013 - Feb 2015
-author      : Weixiang Lim
-job         : 
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
-widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
-knit        : slidify::knit2slides
+title: "Banting Air Pullutant Index"
+author: "Weixiang Lim"
+highlighter: highlight.js
+output: pdf_document
+job: null
+knit: slidify::knit2slides
+mode: selfcontained
+hitheme: tomorrow
+subtitle: Aug 2013 - Feb 2015
+framework: io2012
+widgets: []
 ---
 
 ## Introduction
